@@ -1,0 +1,115 @@
+{
+  "query": "weather",
+  "total": 402,
+  "returned": 1,
+  "results": [
+    {
+      "id": "registry-5922b8db6598f866b5da",
+      "name": "Weather",
+      "summary": "US weather for AI agents: active NWS alerts by state, 5-period forecasts by lat/lon. Paid per call.",
+      "resource_kind": "tool",
+      "category_ids": [
+        "data",
+        "development",
+        "agents"
+      ],
+      "protocols": [
+        "mcp",
+        "web"
+      ],
+      "executable": true,
+      "auth_status": "unknown",
+      "aliases": [
+        "io.github.Thx93/weather"
+      ],
+      "tags": [
+        "MCP",
+        "Registry 元数据",
+        "提供方声明"
+      ],
+      "tasks": [
+        "US weather for AI agents: active NWS alerts by state, 5-period forecasts by lat/lon. Paid per call."
+      ],
+      "cost": {
+        "status": "unknown",
+        "details": "注册信息未核验收费或免费额度。",
+        "evidence": []
+      },
+      "sources": [
+        {
+          "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.Thx93%2Fweather/versions/1.0.0",
+          "title": "MCP 官方 Registry 注册元数据",
+          "checked_at": "2026-10-07",
+          "valid_until": null,
+          "verified_scope": "registry_metadata"
+        }
+      ],
+      "verification": {
+        "execution_tested": false,
+        "status": "provider_declared"
+      },
+      "access": {
+        "docs_url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.Thx93%2Fweather/versions/1.0.0",
+        "endpoint": null
+      },
+      "classification": "keyword_inferred",
+      "registry": {
+        "name": "io.github.Thx93/weather",
+        "status": "active",
+        "updated_at": "2026-09-24T17:51:09.511015Z",
+        "version": "1.0.0"
+      },
+      "rank_in_kind": 1,
+      "matched_terms": [
+        "weather"
+      ],
+      "reasons": [
+        "关键词与任务语义综合匹配"
+      ],
+      "missing_conditions": [
+        "费用条件待核实",
+        "需要认证或接入权限待确认",
+        "未完成实际执行验证"
+      ],
+      "retrieval_evidence": {
+        "keyword_score": 8,
+        "semantic_similarity": 0.851265,
+        "similarity_is_confidence": false,
+        "name_terms": []
+      }
+    }
+  ],
+  "page": 1,
+  "page_size": 1,
+  "total_pages": 402,
+  "has_previous": false,
+  "has_next": true,
+  "result_set_id": "fbcb426ed7f9fc4fd0f9d82c4b3b6fbbe59d51b4b1ca4d4bf91c7a70de199a2b",
+  "catalog_version": "2026-10-06.seed.1+registry.scan.ae17b89746ed40278d61ab1dd53f970d+web.discovery.3d41ff30b8781f0ea144e4d0",
+  "snapshot_id": "8178da044e4e553fe59597b1290a89f0d02312badfb257d12d43916ad51ee6ff",
+  "data_version": "8178da044e4e553fe59597b1290a89f0d02312badfb257d12d43916ad51ee6ff",
+  "ranking_version": "hybrid-evidence.1:61bf32f9efa6dd61:df27747f2461969401f17e2e97912588effef88a77f846f43aa6f455f9bde731",
+  "retrieval": {
+    "method": "hybrid",
+    "status": "ready",
+    "index_identity": "df27747f2461969401f17e2e97912588effef88a77f846f43aa6f455f9bde731",
+    "semantic_generation": "df27747f2461969401f17e2e97912588effef88a77f846f43aa6f455f9bde731",
+    "model_profile": "5d5bf430b47f72ec17b3bb0774e9ca0e892776922170f57da3c113c666cb5dfe",
+    "candidate_limit": 500,
+    "semantic_candidate_limit": 200,
+    "similarity_is_confidence": false,
+    "query_resolution": "candidates_found"
+  },
+  "notice": "关键词与任务语义综合检索，返回有界候选集；相似度不是准确率或执行验证。文档核对不代表任务测试；未知费用不算免费。仅识别免费、无需登录/密钥等少量明确条件，其他自然语言约束仍需核实。",
+  "applied_constraints": {
+    "verified_free": false,
+    "public_access": false
+  },
+  "filters": {
+    "category": "all",
+    "kind": "all",
+    "protocol": "all",
+    "free_only": false,
+    "executable_only": false
+  }
+}

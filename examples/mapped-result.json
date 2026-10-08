@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {
+      "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.Thx93%2Fweather/versions/1.0.0",
+      "title": "Weather",
+      "snippet": "US weather for AI agents: active NWS alerts by state, 5-period forecasts by lat/lon. Paid per call.\n[CCReach capability metadata] resource_kind=tool; protocols=mcp,web; cost.status=unknown; auth_status=unknown; executable=true; missing_conditions=[\"费用条件待核实\",\"需要认证或接入权限待确认\",\"未完成实际执行验证\"]",
+      "publishedAt": "2026-10-07T00:00:00Z"
+    }
+  ],
+  "truncated": false
+}

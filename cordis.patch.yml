@@ -1,0 +1,11 @@
+# Select CCReach search; a later profile patch may replace this config.
+- id: web
+  config:
+    searchProvider: ccreach
+
+- insert:
+    - id: web-search-ccreach
+      name: ccreach-dsh-web-search
+      config:
+        baseURL: https://ccreach.com
+        count: 10

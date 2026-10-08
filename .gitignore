@@ -1,0 +1,6 @@
+node_modules/
+lib/
+*.tgz
+.verification/
+.env
+.credentials.yaml
